@@ -1,0 +1,164 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+     margin: 0;
+     padding: 5px;
+     font-family: 'Poppins';
+     background-color: rgb(171, 137, 203);
+     
+}
+
+header{
+    background-color: rgb(146, 45, 240);
+    color: rgb(243, 240, 240);
+    padding: 10px;
+    display: block;
+    height: auto;
+}
+header div{
+    display: inline;
+}
+header h1{
+      font-family: 'Merriweather';
+      display: inline;
+}
+
+header p{
+    margin-top: 6px;
+    display: inline;
+    float: right
+}
+
+header p:hover{
+    cursor: pointer;
+}
+
+.infostab{
+  min-height: 250px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(223, 222, 222);
+    border-radius: 6px;
+    box-shadow: 10px 10px 6px;
+}
+
+#newstud{
+  cursor: pointer;
+}
+
+.infostab p{
+    text-align: center;
+    margin: 10 auto;
+}
+
+form.newstudent {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form.newstudent input,
+  form.newstudent textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+
+  form.newstudent button{
+    margin: auto;
+    margin-top: -6px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(171, 137, 203);
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+ .btn1:hover {
+    background-color: #fff;
+    color: green;
+    border: 2px solid  #fff;
+  }
+
+  .btn1{
+    float: left;
+  }
+
+  .btn2{
+    float: right;
+  }
+
+  .btn2:hover{
+    background-color: #fff;
+    color: red;
+    border: 2px solid  #fff;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  table button {
+    
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .checkin {
+    /* background-color: white;  */
+    background-color: rgb(223, 222, 222);;
+    color: black; 
+    border: 2px solid rgb(26, 206, 26);
+  }
+  
+  .checkin:hover {
+    background-color:  rgb(26, 206, 26);
+    color: white;
+  }
+
+  .checkout {
+    background-color: rgb(223, 222, 222);;
+    color: black; 
+    border: 2px solid  rgb(216, 20, 20);
+  }
+  
+  .checkout:hover {
+    background-color: rgb(216, 20, 20);
+    color: white;
+  }
+

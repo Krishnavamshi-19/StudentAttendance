@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StudentAttendance/static/css/main.b3eeeea7.css",
+    "main.js": "/StudentAttendance/static/js/main.c8a58bca.js",
+    "index.html": "/StudentAttendance/index.html",
+    "main.b3eeeea7.css.map": "/StudentAttendance/static/css/main.b3eeeea7.css.map",
+    "main.c8a58bca.js.map": "/StudentAttendance/static/js/main.c8a58bca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3eeeea7.css",
+    "static/js/main.c8a58bca.js"
+  ]
+}
